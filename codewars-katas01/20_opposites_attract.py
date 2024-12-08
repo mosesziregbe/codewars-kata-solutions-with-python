@@ -8,14 +8,14 @@
 
 
 def lovefunc( flower1, flower2 ):
-    return True if (flower1 + flower2) % 2 != 0 else False
+    return (flower1 + flower2) % 2 != 0
 
 
 print(lovefunc(2, 6))
 print(lovefunc(3, 0))
 print(lovefunc(1, 1))
 print(lovefunc(2, 3))
-print(lovefunc(466, 962))
+print(lovefunc(5, 1))
 
 
 # Output:
@@ -24,4 +24,5 @@ print(lovefunc(466, 962))
 # True
 # False
 # True
+# False
 
